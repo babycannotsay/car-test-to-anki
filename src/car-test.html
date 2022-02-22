@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./car-test.css">
+    <script>
+        if (void 0===window.Persistence) { var _persistenceKey='github.com/SimonLammer/anki-persistence/',_defaultKey='_default';if (window.Persistence_sessionStorage=function () { var e=!1;try { 'object'==typeof window.sessionStorage&&(e=!0,this.clear=function () { for (var e=0;e<sessionStorage.length;e++) { var t=sessionStorage.key(e);0==t.indexOf(_persistenceKey)&&(sessionStorage.removeItem(t),e--) } },this.setItem=function (e,t) { null==t&&(t=e,e=_defaultKey),sessionStorage.setItem(_persistenceKey+e,JSON.stringify(t)) },this.getItem=function (e) { return null==e&&(e=_defaultKey),JSON.parse(sessionStorage.getItem(_persistenceKey+e)) },this.removeItem=function (e) { null==e&&(e=_defaultKey),sessionStorage.removeItem(_persistenceKey+e) }) } catch (e) {} this.isAvailable=function () { return e } },window.Persistence_windowKey=function (e) { var t=window[e],n=!1;'object'==typeof t&&(n=!0,this.clear=function () { t[_persistenceKey]={} },this.setItem=function (e,n) { null==n&&(n=e,e=_defaultKey),t[_persistenceKey][e]=n },this.getItem=function (e) { return null==e&&(e=_defaultKey),null==t[_persistenceKey][e]?null:t[_persistenceKey][e] },this.removeItem=function (e) { null==e&&(e=_defaultKey),delete t[_persistenceKey][e] },null==t[_persistenceKey]&&this.clear()),this.isAvailable=function () { return n } },window.Persistence=new Persistence_sessionStorage,Persistence.isAvailable()||(window.Persistence=new Persistence_windowKey('py')),!Persistence.isAvailable()) { var titleStartIndex=window.location.toString().indexOf('title'),titleContentIndex=window.location.toString().indexOf('main',titleStartIndex);titleStartIndex>0&&titleContentIndex>0&&titleContentIndex-titleStartIndex<10&&(window.Persistence=new Persistence_windowKey('qt')) } }
+    </script>
+    <script>
+        console.log(Persistence )
+    </script>
+</head>
+<body>
+    <div class="front">
+        <img src="https://hzjp-test.oss-cn-hangzhou.aliyuncs.com/img/question_img_new/867400.jpg" alt="">
+        <div class="bottom">
+            <div class="header">
+                在泥泞路上制动时，车轮易发生侧滑或甩尾，导致交通在泥泞路上制动时，车轮易发生侧滑或甩尾，导致交通事故事故
+                <span class="index">（4/1325）</span>
+            </div>
+            <div class="options">
+                <input type="radio" name="option" value="option2" class="option">1、、、、、错误<br />
+                <input type="radio" name="option" value="option1" class="option" id="option1"><label for="option1">正确</label><br />
+            </div>
+        </div>
+    </div>
+    <div class="back">
+        <div class="bar error">正确</div>
+        <div class="resolving">交警面向哪个方向就是在指挥哪个方向的车辆，右手摆动，右转弯信号</div>
+    </div>
+</body>
+</html>
