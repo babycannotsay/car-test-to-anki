@@ -1,5 +1,5 @@
 # car-test-to-anki
-汇总各省驾考提醒至anki卡片
+汇总各省驾考题型至anki卡片
 ## Usage
 运行`yarn example`
 
