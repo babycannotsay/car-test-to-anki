@@ -7,6 +7,7 @@
     "lib"
   ],
   "scripts": {
+    "example": "npm run ts-node src/example.ts",
     "test": "jest",
     "ts-node": "ts-node",
     "type-check": "tsc --noEmit",
